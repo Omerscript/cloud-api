@@ -1,9 +1,5 @@
-# cloud-api
-This was created with developer rights: @LIEI_T  It was created for unlimited storage space.  And you can save and retrieve files from Cloud Zone for free.  Easily.
-
-.......................................
-
-# 📁 Secure Cloud Storage API – Developer Guide
+```markdown
+# 📁 Secure Cloud Storage API – Developer Guide ( NEW LINK )
 
 Welcome to the official documentation for the **Secure Cloud Storage API**. This guide will walk you through everything you need to know to start using the API effectively.
 
@@ -12,7 +8,10 @@ Welcome to the official documentation for the **Secure Cloud Storage API**. This
 ---
 
 ## 🌐 API Base URL
-https://fundamental-insider-knit-brilliant.trycloudflare.com
+
+```
+https://donor-aqua-big-collar.trycloudflare.com
+```
 
 All endpoints are relative to this base URL.
 
@@ -228,19 +227,19 @@ Delete a file permanently.
 
 ```powershell
 # Register
-Invoke-RestMethod -Uri "https://fundamental-insider-knit-brilliant.trycloudflare.com/register" `
+Invoke-RestMethod -Uri "https://donor-aqua-big-collar.trycloudflare.com/register" `
     -Method POST `
     -ContentType "application/json" `
     -Body '{"username":"testuser","password":"Test1234"}'
 
 # Upload
-Invoke-RestMethod -Uri "https://fundamental-insider-knit-brilliant.trycloudflare.com/upload" `
+Invoke-RestMethod -Uri "https://donor-aqua-big-collar.trycloudflare.com/upload" `
     -Method POST `
     -ContentType "application/json" `
     -Body '{"username":"testuser","password":"Test1234","file_name":"hello.txt","file_data":"SGVsbG8gV29ybGQ="}'
 
 # List
-Invoke-RestMethod -Uri "https://fundamental-insider-knit-brilliant.trycloudflare.com/list" `
+Invoke-RestMethod -Uri "https://donor-aqua-big-collar.trycloudflare.com/list" `
     -Method POST `
     -ContentType "application/json" `
     -Body '{"username":"testuser","password":"Test1234"}'
@@ -250,17 +249,17 @@ Invoke-RestMethod -Uri "https://fundamental-insider-knit-brilliant.trycloudflare
 
 ```bash
 # Register
-curl -X POST https://fundamental-insider-knit-brilliant.trycloudflare.com/register \
+curl -X POST https://donor-aqua-big-collar.trycloudflare.com/register \
   -H "Content-Type: application/json" \
   -d '{"username":"testuser","password":"Test1234"}'
 
 # Upload
-curl -X POST https://fundamental-insider-knit-brilliant.trycloudflare.com/upload \
+curl -X POST https://donor-aqua-big-collar.trycloudflare.com/upload \
   -H "Content-Type: application/json" \
   -d '{"username":"testuser","password":"Test1234","file_name":"hello.txt","file_data":"SGVsbG8gV29ybGQ="}'
 
 # List
-curl -X POST https://fundamental-insider-knit-brilliant.trycloudflare.com/list \
+curl -X POST https://donor-aqua-big-collar.trycloudflare.com/list \
   -H "Content-Type: application/json" \
   -d '{"username":"testuser","password":"Test1234"}'
 ```
@@ -271,7 +270,7 @@ curl -X POST https://fundamental-insider-knit-brilliant.trycloudflare.com/list \
 import requests
 import base64
 
-BASE_URL = "https://fundamental-insider-knit-brilliant.trycloudflare.com"
+BASE_URL = "https://donor-aqua-big-collar.trycloudflare.com"
 
 # Register
 response = requests.post(f"{BASE_URL}/register", json={
@@ -351,7 +350,7 @@ print(response.json())
 
 ## 🔗 Useful Links
 
-- **Base URL:** https://fundamental-insider-knit-brilliant.trycloudflare.com
+- **Base URL:** https://donor-aqua-big-collar.trycloudflare.com
 - **Developer:** [@LIEI_T](https://t.me/LIEI_T) on Telegram
 
 ---
@@ -370,5 +369,5 @@ This API provides a simple, secure, and efficient way to manage your files onlin
 
 ---
 
-*Built with by [@LIEI_T](https://t.me/LIEI_T)*
+*Built with ❤️ by [@LIEI_T](https://t.me/LIEI_T)*
 ```
