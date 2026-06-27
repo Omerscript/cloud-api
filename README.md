@@ -364,4 +364,4 @@ This API provides a simple, secure, and efficient way to manage your files onlin
 
 ---
 
-*Built with ❤️ by [@LIEI_T](https://t.me/LIEI_T)*
+*Built with by [@LIEI_T](https://t.me/LIEI_T)*
