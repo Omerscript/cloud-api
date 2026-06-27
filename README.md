@@ -4,10 +4,9 @@ Welcome to the official documentation for the **Secure Cloud Storage API**. This
 
 > **Developer:** [@LIEI_T](https://t.me/LIEI_T) on Telegram
 
+---
 
-## 🌐 API Base URL
-
-https://brand-fiber-commonwealth-delight.trycloudflare.com
+## 🌐 API Base URL: https://llc-sound-comp-limitation.trycloudflare.com/
 
 All endpoints are relative to this base URL.
 
@@ -223,19 +222,19 @@ Delete a file permanently.
 
 ```powershell
 # Register
-Invoke-RestMethod -Uri "https://brand-fiber-commonwealth-delight.trycloudflare.com/register" `
+Invoke-RestMethod -Uri "https://llc-sound-comp-limitation.trycloudflare.com/register" `
     -Method POST `
     -ContentType "application/json" `
     -Body '{"username":"testuser","password":"Test1234"}'
 
 # Upload
-Invoke-RestMethod -Uri "https://brand-fiber-commonwealth-delight.trycloudflare.com/upload" `
+Invoke-RestMethod -Uri "https://llc-sound-comp-limitation.trycloudflare.com/upload" `
     -Method POST `
     -ContentType "application/json" `
     -Body '{"username":"testuser","password":"Test1234","file_name":"hello.txt","file_data":"SGVsbG8gV29ybGQ="}'
 
 # List
-Invoke-RestMethod -Uri "https://brand-fiber-commonwealth-delight.trycloudflare.com/list" `
+Invoke-RestMethod -Uri "https://llc-sound-comp-limitation.trycloudflare.com/list" `
     -Method POST `
     -ContentType "application/json" `
     -Body '{"username":"testuser","password":"Test1234"}'
@@ -245,17 +244,17 @@ Invoke-RestMethod -Uri "https://brand-fiber-commonwealth-delight.trycloudflare.c
 
 ```bash
 # Register
-curl -X POST https://brand-fiber-commonwealth-delight.trycloudflare.com/register \
+curl -X POST https://llc-sound-comp-limitation.trycloudflare.com/register \
   -H "Content-Type: application/json" \
   -d '{"username":"testuser","password":"Test1234"}'
 
 # Upload
-curl -X POST https://brand-fiber-commonwealth-delight.trycloudflare.com/upload \
+curl -X POST https://llc-sound-comp-limitation.trycloudflare.com/upload \
   -H "Content-Type: application/json" \
   -d '{"username":"testuser","password":"Test1234","file_name":"hello.txt","file_data":"SGVsbG8gV29ybGQ="}'
 
 # List
-curl -X POST https://brand-fiber-commonwealth-delight.trycloudflare.com/list \
+curl -X POST https://llc-sound-comp-limitation.trycloudflare.com/list \
   -H "Content-Type: application/json" \
   -d '{"username":"testuser","password":"Test1234"}'
 ```
@@ -266,7 +265,7 @@ curl -X POST https://brand-fiber-commonwealth-delight.trycloudflare.com/list \
 import requests
 import base64
 
-BASE_URL = "https://brand-fiber-commonwealth-delight.trycloudflare.com"
+BASE_URL = "https://llc-sound-comp-limitation.trycloudflare.com"
 
 # Register
 response = requests.post(f"{BASE_URL}/register", json={
@@ -346,7 +345,7 @@ print(response.json())
 
 ## 🔗 Useful Links
 
-- **Base URL:** https://brand-fiber-commonwealth-delight.trycloudflare.com
+- **Base URL:** https://llc-sound-comp-limitation.trycloudflare.com/
 - **Developer:** [@LIEI_T](https://t.me/LIEI_T) on Telegram
 
 ---
@@ -366,4 +365,3 @@ This API provides a simple, secure, and efficient way to manage your files onlin
 ---
 
 *Built with ❤️ by [@LIEI_T](https://t.me/LIEI_T)*
-```
